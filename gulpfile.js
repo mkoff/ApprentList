@@ -43,7 +43,8 @@ gulp.task('code', function() {
 });
 
 gulp.task('css-libs', function() {
-	return gulp.src('app/sass/main.sass')
+	return gulp.src(['app/sass/main.sass',
+		'app/sass/media.sass'])
 		.pipe(sass()) 
 		.pipe(cssnano())
 		.pipe(rename({suffix: '.min'}))

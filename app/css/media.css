@@ -1,0 +1,83 @@
+@media screen and (max-width: 1260px) {
+  section.section-about-us .about-us {
+    margin-top: 30px;
+    width: 40%; }
+  section.section-about-us .mission {
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    width: 50%; }
+    section.section-about-us .mission ul {
+      width: 95%;
+      margin: 0 auto; }
+      section.section-about-us .mission ul .column {
+        width: 40%; }
+        section.section-about-us .mission ul .column li {
+          font-size: 13px; } }
+
+@media screen and (max-width: 980px) {
+  section.section-about-us {
+    width: 100%;
+    height: auto;
+    background-image: url("../img/man-phone.jpg"); }
+    section.section-about-us .about-us {
+      display: block;
+      vertical-align: top;
+      text-align: center;
+      float: none;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 30px;
+      font-size: 15px; }
+      section.section-about-us .about-us p {
+        width: 85%;
+        padding: 5px 10px;
+        margin: 2px auto; }
+    section.section-about-us .mission {
+      display: block;
+      float: none;
+      width: 90%;
+      text-align: center;
+      margin: 50px auto 0 auto; }
+      section.section-about-us .mission ul {
+        width: 99%;
+        margin: 0 auto; }
+        section.section-about-us .mission ul .column {
+          width: 70%; } }
+
+@media screen and (max-width: 850px) {
+  header.header {
+    position: relative; }
+    header.header #showNav {
+      display: block;
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      right: 0; }
+      header.header #showNav:after {
+        content: '\2261';
+        font-size: 50px;
+        padding: 0;
+        margin: 0;
+        color: #009ac0; }
+    header.header ul.nav {
+      background-color: #fff;
+      border: 3px solid #009ac0;
+      position: absolute;
+      right: 0;
+      display: none; }
+      header.header ul.nav a {
+        display: block; } }
+
+@media screen and (max-width: 480px) {
+  header.header {
+    text-align: center; }
+  section.section-about-us {
+    padding: 5px 2px 0 2px; }
+    section.section-about-us .about-us {
+      width: 100%;
+      font-size: 13px; }
+    section.section-about-us .mission {
+      margin: 0 auto; }
+      section.section-about-us .mission ul .column {
+        width: 90%; } }
