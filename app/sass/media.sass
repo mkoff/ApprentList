@@ -46,6 +46,18 @@
 				.column
 					width: 70%
 
+	.find-an-Apprenticeship
+		&-left
+			width: 100%
+			display: block
+			ul
+				li
+					width: 80%
+					min-height: 100px
+		&-right
+			display: block
+			width: 100%
+
 @media screen and (max-width: 850px)
 	$colorBlue: #009ac0
 	header.header
@@ -71,6 +83,21 @@
 			a
 				display: block
 
+	.testimonials
+		ul
+			width: 80%
+			li
+				width: 80%
+				font-size: 14px
+
+	.find-talent
+		&-list
+			margin-top: 10px
+			font-size: 13px
+			margin-left: 0
+			li
+				padding: 3px
+
 @media screen and (max-width: 480px)
 	header.header
 		text-align: center
@@ -84,3 +111,9 @@
 			ul
 				.column
 					width: 90%
+
+	.find-talent
+		&-list
+			width: 100%
+		&-img-block
+			display: none

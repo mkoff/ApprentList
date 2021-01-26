@@ -43,7 +43,16 @@
         width: 99%;
         margin: 0 auto; }
         section.section-about-us .mission ul .column {
-          width: 70%; } }
+          width: 70%; }
+  .find-an-Apprenticeship-left {
+    width: 100%;
+    display: block; }
+    .find-an-Apprenticeship-left ul li {
+      width: 80%;
+      min-height: 100px; }
+  .find-an-Apprenticeship-right {
+    display: block;
+    width: 100%; } }
 
 @media screen and (max-width: 850px) {
   header.header {
@@ -67,7 +76,18 @@
       right: 0;
       display: none; }
       header.header ul.nav a {
-        display: block; } }
+        display: block; }
+  .testimonials ul {
+    width: 80%; }
+    .testimonials ul li {
+      width: 80%;
+      font-size: 14px; }
+  .find-talent-list {
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 0; }
+    .find-talent-list li {
+      padding: 3px; } }
 
 @media screen and (max-width: 480px) {
   header.header {
@@ -80,4 +100,8 @@
     section.section-about-us .mission {
       margin: 0 auto; }
       section.section-about-us .mission ul .column {
-        width: 90%; } }
+        width: 90%; }
+  .find-talent-list {
+    width: 100%; }
+  .find-talent-img-block {
+    display: none; } }
