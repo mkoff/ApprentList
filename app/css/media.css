@@ -87,7 +87,15 @@
     font-size: 13px;
     margin-left: 0; }
     .find-talent-list li {
-      padding: 3px; } }
+      padding: 3px; }
+  .with-ApprentList h3 {
+    font-size: 23px; }
+  .with-ApprentList ol {
+    width: 70%; }
+    .with-ApprentList ol > li {
+      font-size: 15px; }
+      .with-ApprentList ol > li ul li {
+        font-size: 13px; } }
 
 @media screen and (max-width: 480px) {
   header.header {
@@ -101,7 +109,22 @@
       margin: 0 auto; }
       section.section-about-us .mission ul .column {
         width: 90%; }
-  .find-talent-list {
-    width: 100%; }
-  .find-talent-img-block {
-    display: none; } }
+  .find-talent {
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    .find-talent-list {
+      width: 98%; }
+    .find-talent-img-block {
+      display: none; }
+  .with-ApprentList h3 {
+    font-size: 16px; }
+  .with-ApprentList ol {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    display: block; }
+    .with-ApprentList ol > li {
+      font-size: 15px; }
+      .with-ApprentList ol > li ul li {
+        font-size: 13px; } }

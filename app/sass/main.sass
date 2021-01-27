@@ -6,8 +6,12 @@
     font-family: "Golos"
     src : url("../fonts/golos.ttf")
 
+body
+	padding: 0
+	margin: 0
+
 .wrapper
-	margin: 0 20px
+	margin: 0px
 	font-family: "Golos", serif
 	color: #333
 
@@ -42,25 +46,28 @@ $colorBlue: #009ac0
 	background-color: #fff
 	color: $colorBlue
 
+.logo
+	font-size: 30px
+	padding: 10px
+	margin: 0 auto
+	display: inline-block
+	width: 275px
+	img
+		width: 35px
+		height: 35px
+		display: inline-block
+		vertical-align: bottom
+		padding-left: 5px
+	span
+		background-color: $colorBlue
+		border-radius: 3px
+		padding-right: 3px
+		color: #fff
+
 // HEADER
 header.header
 	.logo
-		display: inline-block
-		font-size: 30px
-		position: relative
-		padding: 10px
-		margin: 0
-		img
-			width: 35px
-			height: 35px
-			position: absolute
-			right: -30px
-			top: 10px
-		span
-			background-color: $colorBlue
-			border-radius: 3px
-			padding-right: 3px
-			color: #fff
+		margin: 0 0 0 30px
 	.nav
 		display: inline-block
 		margin: 0
@@ -257,6 +264,7 @@ section.section-about-us
 	background-image: url('../img/woman-phone.jpg')
 	background-size: cover
 	padding-bottom: 50px
+	min-width: 400px
 	h3
 		font-size: 30px
 		padding: 30px
@@ -288,4 +296,48 @@ section.section-about-us
 	.formButton
 		display: block
 		width: 300px
+
+.form-section
+	text-align: center
+	h2
+		margin: 100px auto 0 auto
+		display: block
+	p#finalTouches
+		width: 350px
+		margin: 0 auto
+		font-size: 15px
+		padding: 10px
+		font-family: HelveticaRegular
+	.action-form
+		margin: 10px 0 10px 0
+		padding: 20px
+		border-radius: 4px
+		background-color: #fff
+		border: 5px solid $colorBlue
+		display: inline-block
+		input, select
+			width: 350px
+			height: 45px
+			margin: 7px 0
+			box-sizing: border-box
+			display: block
+			border-radius: 2px
+			border: 1px solid gray
+		button
+			background-color: $colorBlue
+			color: #fff
+			padding: 10px 20px
+			font-size: 30px
+			border-radius: 5px
+			border: none
+			cursor: pointer
+			text-decoration: none
+			text-align: center
+			display: block
+			margin: 50px auto 50px auto
+
+footer
+	text-align: center
+	margin: 90px 0
+	font-family: HelveticaRegular
 
